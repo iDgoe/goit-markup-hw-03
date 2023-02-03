@@ -11,109 +11,154 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/stiles.css">
 </head>
-    
-    <body>
 
-        <!-- /* ========= HEADER ============ */ -->
-    
-    <header class="page-header">
-        <nav class="page-nav">
-            <a class="logo link" href="./index.html"> <span class="color-logo">WEB</span>STUDIO</a>
-    
-            <ul class="list">
-                <li><a class="menu-link link" href="">Studio</a></li>
-                <li><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="menu-link link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-    
-        <address>
-            <ul class="list">
-                <li><a class="contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+<body>
+
+    <!-- /* ========= HEADER ============ */ -->
+
+    <header class="page-header line">
+        <div class="container display-flex head-flex">
+            <nav class="page-nav display-flex">
+                <a class="logo link" href="./index.html"> <span class="color-logo">WEB</span>STUDIO</a>
+
+                <ul class="list display-flex">
+                    <li class="menu-item"><a class="menu-link link" href="">Studio</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+
+
+            <address class="adress-ul">
+                <ul class="list display-flex">
+                    <li><a class="contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+
+        </div>
     </header>
 
-        <!-- /* ========= /HEADER ============ */-->
-   
-        <!--  /* ========= MAIN  ============ */ -->
-        <main>
-        
-            <section>
-            <h1 hidden>buttons</h1>
-                <ul class="list">
-                    <li><button class="modal-btn-portfolio" type="button">All</button></li>
-                    <li><button class="modal-btn-portfolio" type="button">Web Site</button></li>
-                    <li><button class="modal-btn-portfolio" type="button">App</button></li>
-                    <li><button class="modal-btn-portfolio" type="button">Design</button></li>
-                    <li><button class="modal-btn-portfolio" type="button">Marketing</button></li>
-                    
-                </ul>
-            </section>
-            
-    
-            <section>
-                <ul class="list">
-                    <li>
-                        <img src="./images/portfolio/banking-app-interface-concept.jpg" alt="application layout design" width="360" height="300">
-                        <h2 class="title-small">Banking App Interface Concept</h2>
-                        <p class="text">App</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/cashless-payment.jpg" alt="mobile phone and payment terminal" width="360" height="300">
-                        <h2 class="title-small">Cashless Payment</h2>
-                        <p class="text">Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/meditaion-app.jpg" alt="meditation app on pc monitor" width="360" height="300">
-                        <h2 class="title-small">Meditaion App</h2>
-                        <p class="text">App</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/taxi-service.jpg" alt="driver's hands on car steering wheel" width="360" height="300">
-                        <h2 class="title-small">Taxi Service</h2>
-                        <p class="text">Marketing</p>
-                    </li><li>
-                        <img src="./images/portfolio/screen-illustrations.jpg" alt="illustrations on the phone screen" width="360" height="300">
-                        <h2 class="title-small">Screen Illustrations</h2>
-                        <p class="text">Design</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/online-courses.jpg" alt="girl listening to training through headphones" width="360" height="300">
-                        <h2 class="title-small">Online Courses</h2>
-                        <p class="text">Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/instagram-stories-concept.jpg" alt="instagram Stories Examples" width="360" height="300">
-                        <h2 class="title-small">Instagram Stories Concept</h2>
-                        <p class="text">Design</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/organic-food.jpg" alt="freshly picked fruit in a bag" width="360" height="300">
-                        <h2 class="title-small">Organic Food</h2>
-                        <p class="text">Web Site</p>
-                    </li>
-                    <li>
-                        <img src="./images/portfolio/fresh-coffee.jpg" alt="cappuccino making process" width="360" height="300">
-                        <h2 class="title-small">Fresh Coffee</h2>
-                        <p class="text">Web Site</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <!-- /* ========= /MAIN  ============ */-->
+    <!-- /* ========= /HEADER ============ */-->
 
-        <!-- /* ========= FOOTER ============ */ -->
-        <footer>
-            <a class="logo link" href="./index.html"> <span class="color-logo">WEB</span>STUDIO</a>
-            <p class="text-footer">Increase the flow of customers and <br>sales for your business with digital <br>marketing
+    <!--  /* ========= MAIN  ============ */ -->
+    <main>
+
+        <section class="portfolio-btn-section section">
+            <div class="container">
+                <h1 hidden>buttons</h1>
+                <ul class="list display-flex">
+                    <li class="portfolio-btn-flex"><button class="modal-btn-portfolio" type="button">All</button></li>
+                    <li class="portfolio-btn-flex"><button class="modal-btn-portfolio" type="button">Web Site</button>
+                    </li>
+                    <li class="portfolio-btn-flex"><button class="modal-btn-portfolio" type="button">App</button></li>
+                    <li class="portfolio-btn-flex"><button class="modal-btn-portfolio" type="button">Design</button>
+                    </li>
+                    <li class="portfolio-btn-flex"><button class="modal-btn-portfolio" type="button">Marketing</button>
+                    </li>
+
+            </div>
+
+
+            </ul>
+        </section>
+
+
+        <section class="section-cards">
+            <div class="container">
+
+                <ul class="list portfolio-list">
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/banking-app-interface-concept.jpg" alt="application layout design"
+                            width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Banking App Interface Concept</h2>
+                            <p class="text margin-carts">App</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/cashless-payment.jpg" alt="mobile phone and payment terminal"
+                            width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Cashless Payment</h2>
+                            <p class="text margin-carts">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/meditaion-app.jpg" alt="meditation app on pc monitor" width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Meditaion App</h2>
+                            <p class="text margin-carts">App</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/taxi-service.jpg" alt="driver's hands on car steering wheel"
+                            width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Taxi Service</h2>
+                            <p class="text margin-carts">Marketing</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/screen-illustrations.jpg" alt="illustrations on the phone screen"
+                            width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Screen Illustrations</h2>
+                            <p class="text margin-carts">Design</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/online-courses.jpg"
+                            alt="girl listening to training through headphones" width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Online Courses</h2>
+                            <p class="text margin-carts">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/instagram-stories-concept.jpg" alt="instagram Stories Examples"
+                            width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Instagram Stories Concept</h2>
+                            <p class="text margin-carts">Design</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/organic-food.jpg" alt="freshly picked fruit in a bag" width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Organic Food</h2>
+                            <p class="text margin-carts">Web Site</p>
+                        </div>
+
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/fresh-coffee.jpg" alt="cappuccino making process" width="360">
+                        <div class="portfolio-cards">
+                            <h2 class="title-small margin-carts">Fresh Coffee</h2>
+                            <p class="text margin-carts">Web Site</p>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- /* ========= /MAIN  ============ */-->
+
+    <!-- /* ========= FOOTER ============ */ -->
+    <footer class="footer">
+        <div class="container">
+            <a class="logo-footer link" href="./index.html"> <span class="color-logo">WEB</span>STUDIO</a>
+            <p class="text-footer">Increase the flow of customers and <br>sales for your business with digital
+                <br>marketing
                 & growth solutions.</p>
-        </footer>
-        <!-- /* ========= /FOOTER ============ */ -->
-    
-    </body>
-    
-    </html>
+        </div>
+    </footer>
+    <!-- /* ========= /FOOTER ============ */ -->
+
+</body>
+
+</html>
